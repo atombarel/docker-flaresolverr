@@ -9,6 +9,7 @@ WORKDIR /flaresolverr/flaresolverr
 RUN chmod +x flaresolverr
 
 ENV LANG=en_GB
+ENV LOG_LEVEL=debug
 
 USER flaresolverr
 
